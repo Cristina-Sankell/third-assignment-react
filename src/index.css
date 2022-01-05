@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: cornsilk;
+}
+
+.menu-btn {
+    align-self: flex-start;
+    z-index: 1;
+}
+
+.btn {
+    padding: 10px 15px;
+    margin: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: cornsilk;
+    cursor: pointer;
+}
+
+.btn-hide {
+    display: none;
+}
+
+.close-btn {
+    background-color: cornsilk;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 1;
+}
+
+.btn:hover {
+    background-color: gray;
+}
+
+.home-content {
+    width: 100%;
+    position: relative;
+    left: -5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    width: 260px;
+    height: 100%;
+    background-color: cornflowerblue;
+    padding: 15% 3%;
+    position: relative;
+    z-index: 1;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 1.8rem;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+li {
+    padding: 5%;
+}
+
+
+.modal {
+    width: 80%;
+    background-color: cornflowerblue;
+    padding: 3%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    padding: 10px 5px;
+}
